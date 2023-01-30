@@ -68,6 +68,15 @@
     background-color: purple;
 }
 
+.debug #left-side, .debug #middle-side, .debug #right-side{
+    height: 400px;
+    background-color: red;
+}
+
+.logo{
+    background-color: orange;
+}
+
 /* inizio CSS */
 
 header{
@@ -158,4 +167,18 @@ main{
 
 .section{
     width: calc(100% / 3);
+}
+
+#left-side,#right-side{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#left-side, #middle-side, #right-side{
+    width: calc(100% / 3);
+}
+
+.logo{
+    width: 50%;
+    height: 50%;
 }
