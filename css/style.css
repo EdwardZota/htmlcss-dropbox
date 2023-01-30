@@ -15,6 +15,33 @@
     background-color: orange;
 }
 
+.debug #lower-top-main{
+    background-color: purple;
+    height: 500px;
+}
+
+.debug #top-main-container{
+    background-color: lightgoldenrodyellow;
+}
+
+.debug .border{
+    border: 2px solid black;
+}
+
+.debug .text{
+    height: 100%;
+}
+
+.debug .image{
+    height: 100%;
+}
+
+.debug #top-main{
+    background-color: rosybrown;
+    z-index: -2;
+}
+
+
 
 /* inizio CSS */
 
@@ -40,4 +67,40 @@ nav ul{
 nav li{
     display: inline-block;
     padding: 0 14px;
+}
+
+main{
+    padding-top: 80px;
+}
+
+#top-main{
+    padding: 70px;
+    position: relative;
+}
+
+#background-top-main{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 550px;
+    background-color: #b4d0e7;
+    z-index: -1;
+}
+
+#lower-top-main{
+    display: flex;
+}
+
+#top-main-container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.text{
+    width: 40%;
+}
+
+.image{
+    width: 60%;
 }
