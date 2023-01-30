@@ -41,8 +41,27 @@
     z-index: -2;
 }
 
+.debug .container{
+    background-color: lightskyblue;
+    height: 1000px;
+    padding: 50px;
+}
 
+.debug .col{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
 
+.debug .box{
+    background-color: lightgoldenrodyellow;
+    height: 100%;
+}
+
+.debug .box .column{
+    background-color: purple;
+    height: 100%;
+}
 /* inizio CSS */
 
 header{
@@ -103,4 +122,17 @@ main{
 
 .image{
     width: 60%;
+}
+
+.col{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.box{
+    display: flex;
+}
+
+.box .column{
+    width: calc(100% / 3);
 }
