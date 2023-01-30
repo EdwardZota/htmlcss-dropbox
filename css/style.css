@@ -82,6 +82,16 @@
 
 }
 
+.debug .footer-column{
+    background-color: orange;
+    height: 400px;
+}
+
+#language{
+    padding: 30px;
+    background-color: cyan;
+}
+
 /* inizio CSS */
 
 header{
@@ -203,4 +213,17 @@ main{
     width: 100%;
     height: 100px;
     line-height: 100px;    
+}
+
+footer{
+    background-color: black;
+    height: 500px;
+}
+
+.footer-column{
+    width: calc(100% / 5);
+}
+
+footer .box{
+    flex-wrap: wrap;
 }
