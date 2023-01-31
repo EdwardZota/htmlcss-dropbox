@@ -7,14 +7,6 @@
 
 /* Debug*/
 
-.debug header{
-    background-color: cyan;
-}
-
-.debug ul{
-    background-color: orange;
-}
-
 .debug #lower-top-main{
     background-color: purple;
     height: 500px;
@@ -69,7 +61,7 @@
 }
 
 .debug #left-side, .debug #middle-side, .debug #right-side{
-    height: 400px;
+    height: calc(100vw / 3);
     background-color: red;
 }
 
@@ -87,7 +79,7 @@
     height: 400px;
 }
 
-#language{
+.debug #language{
     padding: 30px;
     background-color: cyan;
 }
@@ -101,6 +93,7 @@ header{
     width: 100%;
     height: 80px;
     z-index: 9999;
+    background-color: white;
 }
 
 nav{
@@ -110,12 +103,28 @@ nav{
     align-items: center;
 }
 
-nav ul{
-}
-
 nav li{
     display: inline-block;
-    padding: 0 14px;
+    padding: 0 10px;
+}
+
+nav li img{
+    height: 20px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.button{
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.button.blue{
+    color: white;
+    background-color: #0061ff;
 }
 
 main{
@@ -135,10 +144,6 @@ main{
     height: 550px;
     background-color: #b4d0e7;
     z-index: -1;
-}
-
-#lower-top-main{
-    display: flex;
 }
 
 #top-main-container{
