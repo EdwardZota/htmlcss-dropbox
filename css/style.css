@@ -20,24 +20,6 @@ body{
     padding: 100px;
 }
 
-.debug .col{
-    height: 100%;
-    width: 100%;
-}
-
-.debug .box{
-    height: 100%;
-}
-
-.debug .box .column{
-    height: 100%;
-}
-
-.debug .section{
-    height: 300px;
-    background-color: purple;
-}
-
 .debug #left-side, .debug #middle-side, .debug #right-side{
     height: calc(100vw / 3);
     background-color: red;
@@ -139,6 +121,18 @@ nav li a{
     width: 30%;
 }
 
+.w-40{
+    width: 40%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.w-60{
+    width: 60%;
+}
+
 .w-70{
     width: 70%;
 }
@@ -149,6 +143,11 @@ nav li a{
 
 main{
     padding-top: 80px;
+}
+
+
+.container{
+    padding: 40px;
 }
 
 #top-main{
@@ -217,12 +216,8 @@ span.check{
     border: 5px solid #0061ff;
 }
 
-.small.box {
-    justify-content: space-between;
-}
-
-.small.box .text{
-    width: 50%;
+.contakt p{
+    padding: 20px 100px 0 0;
 }
 
 .box{
@@ -235,7 +230,7 @@ span.check{
     min-width: 230px;
 }
 
-.column .column-head{
+.column-head{
     display: block;
     text-align: center;
     padding: 10px;
@@ -246,11 +241,11 @@ span.check{
     padding: 30px;
 }
 
-.column-body h3{
+h3{
     font-size: 25px;
 }
 
-.column .value{
+.value{
     font-weight: bold;
     margin: 15px 0 10px;
     display: block;
@@ -300,6 +295,18 @@ span.check{
     color: #0061ff;
 }
 
+.contakt{
+    border: 1px solid lightgray;
+}
+
+.partner .w-40{
+    padding: 50px 30px;
+}
+
+.partner p{
+    padding: 10px 0 25px;
+}
+
 .section-box{
     display: flex;
     flex-wrap: wrap;
@@ -308,6 +315,17 @@ span.check{
 .section{
     width: calc(100% / 3);
 }
+
+.card{
+    padding: 10px;
+}
+
+.card img{
+    width: 100%;
+}
+
+
+
 
 #left-side,#right-side{
     display: flex;
