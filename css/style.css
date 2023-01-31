@@ -15,11 +15,6 @@ body{
     border: 2px solid black;
 }
 
-.debug .question span{
-    background-color: orange;
-
-}
-
 .debug .footer-column{
     background-color: orange;
     height: 400px;
@@ -399,19 +394,27 @@ hr{
 .trial{
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 40px 0;
 }
 
 .trial h2{
     font-size: 30px;
 }
 
+.question{
+    padding: 80px 0;
+}
 
 .question span{
     display: inline-block;
-    width: 100%;
+    width: 90%;
     height: 100px;
     line-height: 100px;    
+}
+
+.one-question{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
 
 footer{
