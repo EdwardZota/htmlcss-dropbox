@@ -199,6 +199,10 @@ h3{
     font-size: 25px;
 }
 
+a{
+    color: #0000ee;
+}
+
 .value{
     font-weight: bold;
     margin: 15px 0 10px;
@@ -394,10 +398,37 @@ hr{
     line-height: 100px;    
 }
 
-.one-question{
+.one-question.middle,#border-question{
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
 }
+
+/*parte bonus*/
+
+.answer{
+    padding-bottom: 30px;
+    display: none;
+}
+
+.open-answer{
+    display: inline-block;
+    display: none;
+}
+
+.one-question:hover .open-answer{
+    display: inline;
+}
+
+.one-question:hover .fa-chevron-down{
+    display: none;
+}
+
+.one-question:hover .answer{
+    display: block;
+}
+
+
+/*fine parte bonus ...resto in fondo*/
 
 footer{
     background-color: black;
@@ -453,6 +484,7 @@ a.button:hover{
     padding-top: 100px; 
 }
  /*ho trovato il segreto anche se ho notato un piccolo bug (credo) */
-html{  
+
+ html{  
     scroll-behavior: smooth;
 }
