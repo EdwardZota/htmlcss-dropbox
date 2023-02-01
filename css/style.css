@@ -75,17 +75,6 @@ nav li a{
     border: 1px solid black;
 }
 
-
-/*
-.text{
-    width: 40%;
-}
-
-.image{
-    width: 60%;
-}
-*/
-
 .w-30{
     width: 30%;
 }
@@ -293,6 +282,9 @@ h3{
     width: 100%;
 }
 
+.company{
+    margin-top: 100px;
+}
 
 #left-side,#right-side{
     flex-wrap: wrap;
@@ -343,6 +335,7 @@ hr{
 
 .logo.bg1{
     background-color: #a2d39b;
+    border: 20px solid #d1e9cd;
 }
 
 .logo.bg2{
@@ -387,6 +380,10 @@ hr{
 
 .trial h2{
     font-size: 30px;
+}
+
+.trial h2{
+    color: #61082b;
 }
 
 .question{
